@@ -10,6 +10,11 @@ header {
   border-bottom: 1px solid black;
 }
 
+body {
+  font-family: Georgia;
+  color: black;
+}
+
 .logo {
   color: MediumAquamarine;
   display: inline-flex;
@@ -40,6 +45,67 @@ nav span {
   padding: 20px 10px;
 }
 
+.columns {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.columns.largecolumn {
+  width: 630px;
+  display: inline-flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+div {
+  display: block;
+}
+
+p {
+  display: block;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
 .phish-headline {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png")
+  font-size: 40px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.backwards {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png")
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.cameras {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png")
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 30px;
 }
