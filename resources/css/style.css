@@ -86,8 +86,9 @@ nav span {
 }
 
 .phish-headline {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png")
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
   font-size: 40px;
+  color: white;
   flex-direction: column;
   justify-content: center;
   font-weight: bold;
@@ -96,6 +97,12 @@ nav span {
 
 .phishstory {
   border: 1px solid black;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
 }
 
 .orcaheadline {
@@ -107,9 +114,10 @@ nav span {
 }
 
 .backwards {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png")
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
   height: 300px;
-  justify-content: center;
+  color: white;
+  text-align: center;
   margin-top: 15px;
   font-weight: bold;
   font-size: 30px;
@@ -117,9 +125,10 @@ nav span {
 }
 
 .cameras {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png")
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
   height: 300px;
-  justify-content: center;
+  color: white;
+  text-align: center;
   margin-top: 15px;
   font-weight: bold;
   font-size: 30px;
@@ -128,6 +137,13 @@ nav span {
 
 
 .catheadline {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  height: 300px;
+  color: white;
+  text-align: center;
   border: 1px solid black;
 }
 
