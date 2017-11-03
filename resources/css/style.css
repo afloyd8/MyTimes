@@ -14,6 +14,7 @@ header {
 body {
   font-family: Georgia;
   color: black;
+  margin-top: 0;
 }
 
 .logo {
@@ -51,12 +52,10 @@ nav span {
   width: 630px;
   flex-direction: column;
   margin-right: 32px;
-  border: 1px solid black;
 }
 
 .middlecolumn {
   width: 300px;
-  border: 1px solid black;
   display: inline-flex;
   flex-direction: column;
   margin-right: 32px;
@@ -66,23 +65,21 @@ nav span {
   display: inline-flex;
   width: 240px;
   flex-direction: column;
-  border: 1px solid black;
 }
 
 .content {
   display: flex;
-  border: 1px solid black;
   position: relative;
   top: 80px;
   width: 100%;
   padding: 20px;
+  margin-bottom: 80px;
 }
 
 .story {
   display: flex;
   flex-direction: column;
   width: 300px;
-  border: 1px solid black;
 }
 
 .phish-headline {
@@ -92,25 +89,12 @@ nav span {
   flex-direction: column;
   justify-content: center;
   font-weight: bold;
-  border: 1px solid black;
-}
-
-.phishstory {
-  border: 1px solid black;
 }
 
 .stories {
   display: flex;
   justify-content: space-between;
   margin-top: 15px;
-}
-
-.orcaheadline {
-  border: 1px solid black;
-}
-
-.orcastory {
-  border: 1px solid black;
 }
 
 .backwards {
@@ -121,7 +105,6 @@ nav span {
   margin-top: 15px;
   font-weight: bold;
   font-size: 30px;
-  border: 1px solid black;
 }
 
 .cameras {
@@ -132,9 +115,7 @@ nav span {
   margin-top: 15px;
   font-weight: bold;
   font-size: 30px;
-  border: 1px solid black;
 }
-
 
 .catheadline {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
@@ -144,26 +125,52 @@ nav span {
   height: 300px;
   color: white;
   text-align: center;
-  border: 1px solid black;
-}
-
-.catstory {
-  border: 1px solid black;
-}
-
-.newsbites {
-  border: 1px solid black;
 }
 
 .newsbites h3 {
+  text-align: center;
   font-size: 16px;
   font-weight: bold;
 }
 
-.bites {
-  border: 1px solid black;
+.bite {
+  border-bottom: 1px solid black;
   background-color: WhiteSmoke;
   font-family: Verdana;
   font-size: 12px;
   color: DimGray;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
+  height: 30px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  color: black;
+  font-family: Verdana;
+  font-size: 12px;
+  background-color: MediumAquamarine;
+  height: 325px;
+  margin: auto;
+  text-align: center;
+}
+
+.mytimes {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+footer a {
+  color: black;
+  justify-content: space-around;
+  padding: 10px;
 }
